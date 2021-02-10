@@ -1,5 +1,5 @@
 # Quantcast - Google Analytics Compliance
- Make Quantcast GDPR Compliant using Google Analytics
+ Make Quantcast GDPR Compliant when using Google Analytics
   For details please keep scrolling
   
   # Installation Instructions:
