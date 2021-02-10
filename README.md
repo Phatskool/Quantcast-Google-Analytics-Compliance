@@ -17,7 +17,7 @@ The script can easily be edited, to check if specific consent have been given, i
  Although Quantcast Choice developers have made a fantastic job oversimplifying the use of their plugin,
  probably due to adversity reasons, they do not offer a way to block Google Analytics script before a visitor gives such consent.
   
- So my first thought, was wait a minute, almost everyone in my country uses Quantcast for GDPR compliance with their sites and Google Analytics for measuring data, how can they possibly be compliant if Quantcast gives no such option? So I started digging up some major websites, and to my surprise, I realised all of them loaded their Google Analytics script regardless of consent! 
+ So my first thought, was wait a minute, most famous websites in my country use Quantcast for GDPR compliance with their sites and Google Analytics for measuring data, how can they possibly be compliant if Quantcast gives no such option? So I started digging up some major websites, and to my surprise, I realised most of them loaded their Google Analytics script regardless of consent! 
  
  My second thought was creating a javascript that was handling the website cookies based on the Quantcast choice of the user, but soon enough I found out I could not deal with a specific bug that came up, such as cookies not working properly when a user declines, consents, declines and consents again(I know it's a far fetched scenario, but I could not let that slide). Based on the fundamental programmatic approach that I had, using no framework plus plain JS, I could not patch this bug. 
 
