@@ -4,7 +4,7 @@
   
   # Installation Instructions:
 
-After you set up Quantcast Choice and integrated the generated Universal Tag to your website, you can add my script, changing UA-XXXXXXXX-X to your Analytics ID.
+After you set up Quantcast Choice and integrated the generated Universal Tag to your website, you can add this script, changing UA-XXXXXXXX-X to your Analytics ID.
 The script can easily be edited, to check if specific consent have been given, in order to run any script you want, simply by replacing the insertAnalyticsJs function to a function/code of your choice.
 
 # Why Quantcast is not enough
