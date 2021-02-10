@@ -1,6 +1,14 @@
 # Quantcast - Google Analytics Compliance
  Make Quantcast GDPR Compliant using Google Analytics
- 
+  For details please keep scrolling
+  
+  # Installation Instructions:
+
+After you set up Quantcast Choice and integrated the generated Universal Tag to your website, you can add my script, changing UA-XXXXXXXX-X to your Analytics ID.
+The script can easily be edited, to check if specific consent have been given, in order to run any script you want, simply by replacing the insertAnalyticsJs function to a function/code of your choice.
+
+# Why Quantcast is not enough
+  
   Just to keep you up-to-date, in order for a site to be GDPR compliant, if a user has not given direct consent to use his data (geolocation - personalization etc),
  you are not allowed to collect such data. 
  
@@ -18,8 +26,3 @@ It uses CMP2 & CCPA API, so what better way can you find than learn a new API? :
  
   Bottomline is that I created a JS using the aformed API, that checks each 0.1s(for a maximum of one minute) if a user has given all proper consents in order to run Google Analytics.
 In order to run it, a user has to give direct consent to the 3 following sections: a) geolocaton data b) personalized data and measuring data c)access to device storage(in order to save cookies)
-
-# Installation Instructions:
-
-After you set up Quantcast Choice and integrated the generated Universal Tag to your website, you can add my script, changing UA-XXXXXXXX-X to your Analytics ID.
-The script can easily be edited, to check if specific consent have been given, in order to run any script you want, simply by replacing the insertAnalyticsJs function to a function/code of your choice.
